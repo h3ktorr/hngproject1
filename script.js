@@ -2,10 +2,11 @@
 const timeElement = document.querySelector('[data-testid="test-user-time"]');
 
 function updateTime() {
-  const newDate = new Date();
-  const baseTime = newDate.toLocaleTimeString();
-  const ms = String(newDate.getMilliseconds()).padStart(3, "0");
-  timeElement.textContent = `${baseTime} .${ms}`;
+  timeElement.textContent = Date.now();
+  // const newDate = new Date();
+  // const baseTime = newDate.toLocaleTimeString();
+  // const ms = String(newDate.getMilliseconds()).padStart(3, "0");
+  // timeElement.textContent = `${baseTime} .${ms}`;
 }
 
 updateTime();
