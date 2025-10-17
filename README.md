@@ -10,10 +10,10 @@ A responsive, accessible profile card built with semantic HTML, CSS, and vanilla
 - Keyboard-focusable social links
 
 ## 🚀 Live Demo
-[View Live Project](https://your-live-site-url.netlify.app)
+[View Live Project](https://h3ktorr.github.io/hngproject1/)
 
 ## 💻 Repository
-[GitHub Repo](https://github.com/yourusername/frontend-wizards-stage0-profile-card)
+[GitHub Repo](https://github.com/h3ktorr/hngproject1)
 
 ## 🧰 How to Run Locally
 1. Clone this repo:
