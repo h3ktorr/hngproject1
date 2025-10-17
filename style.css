@@ -1,0 +1,133 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+ font-family: system-ui, sans-serif;
+ background-color: #f5f5f5;
+ margin: 0;
+ padding: 2rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+}
+
+.profile-card {
+ background: white;
+ border-radius: 1rem;
+ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+ padding: 1.5rem;
+ max-width: 400px;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+ transition: transform 0.2s;
+}
+
+.profile-card:hover {
+ transform: translateY(-4px);
+}
+
+.profile-avatar{
+ align-self: center;
+}
+
+.profile-avatar img {
+ width: 250px;
+ height: 250px;
+ border-radius: 20%;
+ object-fit: cover;
+}
+
+.profile-info{
+ display: flex;
+ flex-direction: column;
+}
+
+.profile-header{
+ align-self: center;
+}
+
+.profile-header h2 {
+ margin: 0;
+ font-size: 1.5rem;
+ color: #333;
+}
+
+.profile-bio {
+ font-size: 1rem;
+ color: #555;
+ line-height: 1.5;
+}
+
+.profile-time {
+ font-size: 0.9rem;
+ color: #777;
+}
+
+.hobbies-and-dislike {
+ display: block;
+}
+
+nav ul {
+ display: flex;
+ gap: 1rem;
+ list-style: none;
+ padding: 0;
+ margin: 0;
+}
+
+nav a {
+ text-decoration: none;
+ color: #0073e6;
+ font-weight: 500;
+}
+
+nav a:focus,
+nav a:hover {
+ outline: 2px solid #0073e6;
+ outline-offset: 2px;
+ border-radius: 4px;
+}
+
+section h3 {
+ font-size: 1.1rem;
+ margin-bottom: 0.25rem;
+}
+
+ul {
+ margin: 0;
+ padding-left: 1.25rem;
+}
+
+@media (min-width: 700px) {
+ .profile-card {
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 700px;
+  gap: 50px;
+ }
+
+ .profile-avatar {
+  flex-shrink: 0;
+  /* align-self: self-start; */
+ }
+
+ .profile-header,
+ .profile-bio,
+ .profile-time,
+ nav,
+ section {
+  flex: 1;
+ }
+
+ .profile-header{
+  align-self: self-start;
+ }
+ 
+ .hobbies-and-dislike{
+  display: flex;
+ }
+}

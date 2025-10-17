@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Profile Card</title>
+ <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+ <article class="profile-card" data-testid="test-profile-card">
+  <figure class="profile-avatar">
+   <img src="./hero.jpg" alt="Profile picture" data-testid="test-user-avatar" />
+  </figure>
+
+  <div class="profile-info">
+   <header class="profile-header">
+    <h2 data-testid="test-user-name">Kelvin Oche</h2>
+   </header>
+
+   <p class="profile-bio" data-testid="test-user-bio">
+    Passionate frontend developer who loves creating smooth and responsive web interfaces.
+   </p>
+
+   <p class="profile-time">
+    Current time (ms):
+    <span data-testid="test-user-time"></span>
+   </p>
+
+   <nav aria-label="User social links" data-testid="test-user-social-links">
+    <ul>
+     <li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"
+       data-testid="test-user-social-instagram">Instagram</a></li>
+     <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+       data-testid="test-user-social-github">GitHub</a></li>
+     <li><a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer"
+       data-testid="test-user-social-facebook">Facebook</a></li>
+    </ul>
+   </nav>
+
+   <div class="hobbies-and-dislike">
+    <section aria-labelledby="hobbies-title">
+     <h3 id="hobbies-title">Hobbies</h3>
+     <ul data-testid="test-user-hobbies">
+      <li>Coding</li>
+      <li>Football</li>
+      <li>Gaming</li>
+     </ul>
+    </section>
+
+    <section aria-labelledby="dislikes-title">
+     <h3 id="dislikes-title">Dislikes</h3>
+     <ul data-testid="test-user-dislikes">
+      <li>Problem</li>
+      <li>Wahala</li>
+      <li>Issues</li>
+     </ul>
+    </section>
+   </div>
+  </div>
+ </article>
+
+ <script src="script.js"></script>
+</body>
+</html>
