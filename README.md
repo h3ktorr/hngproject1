@@ -25,7 +25,7 @@ A responsive, accessible profile card built with semantic HTML, CSS, and vanilla
    git clone https://github.com/h3ktorr/hngproject1.git
    ```
 2. Open the folder:
-   cd frontend-wizards-stage0-profile-card
+   cd hngproject1
 3. Open index.html in your browser.
 
 📁 Project Structure
