@@ -10,4 +10,4 @@ function updateTime() {
 }
 
 updateTime();
-setInterval(updateTime, 500); // updates every second (reasonable frequency)
+setInterval(updateTime, 1000); // updates every second (reasonable frequency)
