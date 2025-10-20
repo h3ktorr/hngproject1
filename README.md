@@ -47,7 +47,7 @@ hngproject1/
 
 Displays current time in milliseconds.
 
-Updates every 500ms using JavaScript (setInterval).
+Updates every 1000ms using JavaScript (setInterval).
 
 ♿ Accessibility:
 
